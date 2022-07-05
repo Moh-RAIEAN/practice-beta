@@ -89,5 +89,6 @@ h1,h2,h3,h4{
 /* style of our footer section */
 footer{
     text-align: center;
-    color: rgb(95, 95, 95);
+    color: whitesmoke;
+    background-color: #684FDC;
 }
