@@ -1,0 +1,92 @@
+/* removing browser default margin and padding */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* creating a parent element */
+.container{
+    display: flex;
+}
+/* for two equal width element */
+.column{
+    width: 50%;
+}
+.top-side-circle-bg{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+/* to give some whitespace around our text */
+.column .content{
+    padding: 10px 20px;
+}
+/* set the header font size */
+h1{
+    font-size: 50px;
+}
+/* sub header size */
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+/* capitalize all heading element */
+h1,h2,h3,h4{
+    text-transform: capitalize;
+}
+/* for creating attention to the visitor */
+.orange{
+    color: orangered;
+}
+/* set paragraph even side equal */
+.column .content p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+/* design button */
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: orangered;
+    box-shadow: inset 3px 3px 8px 0 rgba(117,32,0,.8) , inset -4px -4px 8px 0 rgba(117, 32, 0, .8);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* full width image */
+.column img{
+    width: 100% ;
+    height: auto;
+}
+/* set the attractive curved background of second text content of second section you can use it any where you want */
+.curve-side-bg{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+/* giving a big padding on the right side */
+.padding-right{
+    padding-right: 5rem;
+}
+/* additional style of container for experience section */
+.card-container{
+    padding: 50px;
+    gap:50px;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+/* design of cards of section three */
+.card{
+    padding: 10px;
+    box-shadow: 2px 5px 6px 2px rgb(0 ,0 ,0 ,.3);
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-left: 6px solid #684FDC;
+}
+/* style of our footer section */
+footer{
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
